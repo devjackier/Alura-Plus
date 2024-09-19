@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #00030C;
+    box-sizing: border-box;
+    background-image: url(./assets/Background.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 588px;
+    height: 431px;
+    margin: 152px 0px 0px 120px;
+    gap: 26px;
+}
+
+.apresentacao__title{
+    color: white;
+    font-size: 32px;
+}
+
+.apresentacao__img{
+    width: 348px;
+    margin: 0px 0px 0px 110px;
+    margin-top: 20px;
+}
+
+.apresentacao__botao__assine{
+    background-color: #167BF7;
+    width: 512px;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'inter';
+    font-weight: 200;
+}
+
+.apresentacao__botao__assine__assinar{
+    border: 1px solid rgb(250, 250, 250);
+    width: 512px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    font-family: 'inter';
+    font-weight: 200;
+}
+
+.apresentacao__paragrafo{
+    color: #C0C0C0;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 200;
+}
+
+.botoes__apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 18.73px;
+    margin-top: 26px;
+}
+
+.section__plataformas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 380px 0px 0px 120px;
+}
+
+.section__agrupamento{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 122px;
+}
+
+.section__text__plataformas{
+    font-size: 48px;
+    color: white;
+    font-family: 'inter';
+    font-weight: 600;
+}
+
+.section__paragrafo__plataformas{
+    color: #C0C0C0;
+    font-size: 15px;
+    font-family: 'inter';
+    font-weight: 200;
+    width: 588px;
+}
+
+.section__telas{
+    margin-top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section__paragrafo{
+    color: #9b9a9a;
+    font-size: 14px;
+    width: 588px;
+    font-family: 'inter';
+    font-weight: 200;
+}
+
+.section__telas__textos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section__telas__botao{
+    text-decoration: none;
+    color: white;
+    background-color: #167BF7;
+    padding: 19px 20px;
+    text-align: center;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 13.02px;
+    font-weight: 200;
+    font-family: 'inter';
+}
+
+.computador__section{
+    margin-top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.computador__area__texts{
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+}
+
+.computador__titulo{
+    font-size: 48px;
+    color: white;
+    font-family: 'inter';
+}
+
+.computador__paragrafo{
+    color: #9b9a9a;
+    font-size: 14px;
+    width: 588px;
+    font-family: 'inter';
+    font-weight: 200;
+}
+
+.dispositivos{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: 280px;
+    text-align: center;
+    color: white;
+    font-family: 'inter';
+}
+
+.dispositivos__titulo{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    font-family: 'inter';
+}
+
+.lista__dispositivos{
+    display: flex;
+    justify-content: space-evenly;   
+    list-style: none;
+    padding: 26px;
+    font-size: 32px;
+}
+
+.rodape{
+    margin-top: 150px;
+    font-size: 31px;
+    color: white;
+    text-align: center;
+}
+
+.lista__footer{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    font-size: 18px;
+    color: grey;
+    margin-top: 28px;
+}
+
+.rodape__final{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    margin-top: 27px;
+}
+
+.paragraf__footer{
+    margin-top: 20px;
+    height: 100px;
+}
